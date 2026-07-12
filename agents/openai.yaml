@@ -1,0 +1,4 @@
+interface:
+  display_name: "MSE Academic Search"
+  short_description: "Rigorous multi-source literature search and coverage audit"
+  default_prompt: "Use $mse-academic-search to run a rigorous, reproducible multi-source literature search with authoritative core indexes and an auditable evidence trail."

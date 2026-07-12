@@ -1,0 +1,54 @@
+{
+  "profiles": {
+    "innovation-management": {
+      "triggers": ["innovation management", "technology adoption", "process innovation", "product innovation", "research and development"],
+      "groups": ["innovation"]
+    },
+    "operations-management": {
+      "triggers": ["operations management", "supply chain", "logistics", "inventory", "service operations"],
+      "groups": ["operations", "supply-chain"]
+    },
+    "organizational-management": {
+      "triggers": ["organizational behavior", "leadership", "employee performance", "team performance", "human resource management"],
+      "groups": ["organization"]
+    },
+    "sustainability-management": {
+      "triggers": ["sustainability management", "corporate sustainability", "ESG", "corporate social responsibility", "circular economy"],
+      "groups": ["sustainability"]
+    },
+    "auto": {
+      "triggers": [],
+      "groups": []
+    },
+    "general": {
+      "triggers": [],
+      "groups": []
+    }
+  },
+  "groups": {
+    "innovation": {
+      "name": "topic:innovation",
+      "terms": ["innovation management", "technology adoption", "process innovation", "product innovation", "research and development"]
+    },
+    "operations": {
+      "name": "topic:operations",
+      "terms": ["operations management", "production planning", "service operations", "inventory management", "quality management"]
+    },
+    "supply-chain": {
+      "name": "context:supply-chain",
+      "terms": ["supply chain", "supplier management", "logistics", "procurement", "supply chain resilience"]
+    },
+    "organization": {
+      "name": "topic:organization",
+      "terms": ["organizational behavior", "leadership", "employee performance", "team performance", "human resource management"]
+    },
+    "sustainability": {
+      "name": "topic:sustainability",
+      "terms": ["sustainability management", "corporate sustainability", "ESG", "corporate social responsibility", "circular economy"]
+    },
+    "causal-methods": {
+      "name": "method:causal",
+      "terms": ["panel data", "difference in differences", "instrumental variables", "regression discontinuity", "natural experiment"]
+    }
+  }
+}
